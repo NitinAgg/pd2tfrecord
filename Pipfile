@@ -1,0 +1,16 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+isort = "*"
+mypy = "*"
+black = ">=19.10b0"
+coverage = "*"
+pytest = "*"
+flake8 = "*"
+
+[packages]
+tensorflow = ">=2.0"
+pandas = "*"
