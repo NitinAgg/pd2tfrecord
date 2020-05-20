@@ -13,7 +13,6 @@ flake8 = "*"
 twine = "*"
 importlib-metadata = "*"
 setuptools = "*"
-wheel = "*"
 
 [packages]
 tensorflow = ">=2.0"
