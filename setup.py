@@ -2,7 +2,7 @@ from distutils.core import setup
 
 setup(
     name="pd2tfrecord",
-    packages=["pd2tfrecord"],
+    py_modules=["pd2tfrecord"],
     version="0.1",
     license="MIT",
     description="Library to convert pandas data frame to tfrecord and vice versa",
