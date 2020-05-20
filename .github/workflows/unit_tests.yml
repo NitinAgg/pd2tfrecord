@@ -32,4 +32,4 @@ jobs:
           make lint-test
       - name: Test with pytest
         run: |
-          coverage run
+          pipenv run coverage run
