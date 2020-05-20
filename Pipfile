@@ -10,7 +10,11 @@ black = ">=19.10b0"
 coverage = "*"
 pytest = "*"
 flake8 = "*"
+twine = "*"
 
 [packages]
 tensorflow = ">=2.0"
 pandas = "*"
+
+[pipenv]
+allow_prereleases = true
