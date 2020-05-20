@@ -11,6 +11,7 @@ coverage = "*"
 pytest = "*"
 flake8 = "*"
 twine = "*"
+importlib-metadata = "*"
 
 [packages]
 tensorflow = ">=2.0"
