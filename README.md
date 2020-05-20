@@ -1,5 +1,10 @@
 # pd2tfrecord
-Library to convert pandas to tfExample and tfRecord file
+Library to convert pandas to tfExample and tfRecord file and vice versa.
+
+# Installation
+```
+pip install pd2tfrecord
+```
 
 # Example
 Following code runs through an example of coverting a pandas dataframe to a list of serialized tf.Example, write these to .tfrecord files and then read that back into pandas dataframe.
