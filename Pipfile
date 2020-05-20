@@ -12,6 +12,7 @@ pytest = "*"
 flake8 = "*"
 twine = "*"
 importlib-metadata = "*"
+setuptools = "*"
 
 [packages]
 tensorflow = ">=2.0"
